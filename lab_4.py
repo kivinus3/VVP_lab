@@ -41,7 +41,6 @@ def task_5(a, b):
 
 
 def main():
-    print(abs(-1))
     task_1(int(input()), int(input()))
     task_2(int(input()))
     task_3(int(input()), int(input()))
