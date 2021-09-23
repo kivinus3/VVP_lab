@@ -41,11 +41,11 @@ def task_5(a, b):
 
 
 def main():
-    task_1(int(input()), int(input()))
-    task_2(int(input()))
-    task_3(int(input()), int(input()))
-    task_4(int(input()), int(input()))
-    task_5(int(input()), int(input()))
+    task_1(float(input()), float(input()))
+    task_2(float(input()))
+    task_3(float(input()), float(input()))
+    task_4(float(input()), float(input()))
+    task_5(float(input()), float(input()))
 
 
 if __name__ == '__main__':

@@ -1,6 +1,3 @@
-from math import sqrt
-
-
 def task_1(a, b):
     print("\n1.")
     a, b = b, a
@@ -62,13 +59,13 @@ def task_7(a):
 
 
 def main():
-    task_1(int(input()), int(input()))
-    task_2(int(input()), int(input()), int(input()))
-    task_3(int(input()), int(input()), int(input()))
-    task_4(int(input()))
-    task_5(int(input()))
-    task_6(int(input()))
-    task_7(int(input()))
+    task_1(float(input()), float(input()))
+    task_2(float(input()), float(input()), float(input()))
+    task_3(float(input()), float(input()), float(input()))
+    task_4(float(input()))
+    task_5(float(input()))
+    task_6(float(input()))
+    task_7(float(input()))
 
 
 if __name__ == '__main__':

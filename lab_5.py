@@ -42,11 +42,11 @@ def task_5(x1, y1, x2, y2, x3, y3):
 
 
 def main():
-    task_1(int(input()), int(input()), int(input()), int(input()))
-    task_2(int(input()), int(input()), int(input()))
-    task_3(int(input()), int(input()), int(input()))
-    task_4(int(input()), int(input()), int(input()), int(input()))
-    task_5(int(input()), int(input()), int(input()), int(input()), int(input()), int(input()))
+    task_1(float(input()), float(input()), float(input()), float(input()))
+    task_2(float(input()), float(input()), float(input()))
+    task_3(float(input()), float(input()), float(input()))
+    task_4(float(input()), float(input()), float(input()), float(input()))
+    task_5(float(input()), float(input()), float(input()), float(input()), float(input()), float(input()))
 
 
 if __name__ == '__main__':
