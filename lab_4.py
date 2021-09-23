@@ -19,7 +19,6 @@ def task_3(a, b):
 
 def task_4(a, b):
     print("\n4.")
-    print()
     sqrA = a * a
     sqrB = b * b
     print("Сумма: " + str(sqrA + sqrB))
