@@ -38,7 +38,7 @@ def task_4():
             result += c + c
             continue
         result += ch
-    print("С удвоенным символом С: " + result)
+    print("С удвоенным символом \""+c+"\": " + result)
     print()
 
 
