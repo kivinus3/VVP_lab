@@ -1,6 +1,6 @@
 def task_1():
     print("\n1.")
-    text = "фыв   ыфв      ыфв   ыфв ыф ы ф  ы   "  # 8
+    text = input("Введите строку: ")
     words = text.split()
     print("Количество слов: " + str(len(words)))
     print()
@@ -8,7 +8,7 @@ def task_1():
 
 def task_2():
     print("\n2")
-    text = "asdsad   asdsad  dssss dddd"  # 4
+    text = input("Введите строку: ")
     words = text.split()
     result = len(words[0])
     for word in words:
@@ -19,7 +19,7 @@ def task_2():
 
 def task_3():
     print("\n3.")
-    text = "АБРА    КАДАБРА  "  # АБР. КАД.БР.
+    text = input("Введите строку: ")
     words = text.split()
     for word in words:
         repeatedCh = []
@@ -38,7 +38,7 @@ def task_3():
 
 def task_4():
     print("\n4.")
-    text = "муха села на вареньн"  # 7
+    text = input("Введите строку: ")
     a = ['а', 'у', 'о', 'ы', 'и', 'э', 'я', 'ю', 'ё', 'е']
     c = 0
     for ch in text:
@@ -50,7 +50,7 @@ def task_4():
 
 def task_5():
     print("\n5.")
-    path = "D:\\Games\\Rockstar\\gta5.exe"
+    path = input("Введите строку: ")  # "D:\\Games\\Rockstar\\gta5.exe"
     slashIndex = path[::-1].index('\\') * -1
     dotIndex = path.index('.')
     print("Файл: " + path[slashIndex:dotIndex])
@@ -59,7 +59,7 @@ def task_5():
 
 def task_6():
     print("\n6.")
-    path = "D:\\Games\\Rockstar\\gta5.exe"
+    path = input("Введите строку: ")  # "D:\\Games\\Rockstar\\gta5.exe"
     if path.count('\\') < 2:
         print("Последний каталог: " + str())
         return
@@ -69,7 +69,7 @@ def task_6():
 
 def task_7():
     print("\n7.")
-    word = "password"  # asodrwsp
+    word = input("Введите строку: ")  # "password" -> asodrwsp
     newWord = ""
     for i in range(1, len(word), 2):
         newWord += word[i]

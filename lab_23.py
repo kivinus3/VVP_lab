@@ -1,6 +1,6 @@
 def task_1():
     print("\n1.")
-    char = ord("E")
+    char = ord(input("Введите символ С: "))
     print("Следующий символ: " + str(chr(char + 1)))
     print("Прошлый символ: " + str(chr(char - 1)))
     print()
@@ -8,7 +8,7 @@ def task_1():
 
 def task_2():
     print("\n2")
-    s = "afa  df d f"
+    s = input("Введите строку: ")
     result = ""
     for ch in s:
         result += ch + " "
@@ -19,7 +19,7 @@ def task_2():
 def task_3():
     print("\n3.")
     alphabet = "A, B, C, D, E, F, G, H, I, K, L, M, N, O, P, Q, R, S, T, V, X, Y, Z, J, U, W".split(", ")
-    s = "dsf sSDf D Fr t"
+    s = input("Введите строку: ")
     c = 0
     for ch in s:
         if ch in alphabet:
@@ -30,8 +30,8 @@ def task_3():
 
 def task_4():
     print("\n4.")
-    c = "a"
-    s = "abba bartttta"
+    c = input("Введите символ С: ")
+    s = input("Введите строку: ")
     result = ''
     for ch in s:
         if ch == c:

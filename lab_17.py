@@ -1,7 +1,7 @@
 def getList():
     result = []
-    for i in range(int(input())):
-        result.append(int(input("Введите размер массива: ")))
+    for i in range(int(input("Введите размер массива: "))):
+        result.append(int(input()))
     return result
 
 

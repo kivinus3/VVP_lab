@@ -1,5 +1,4 @@
 def task_1(a, b):
-    print("\n1.")
     a, b = b, a
     print("a = " + str(a))
     print("b = " + str(b))
@@ -7,7 +6,6 @@ def task_1(a, b):
 
 
 def task_2(a, b, c):
-    print("\n2.")
     c, b, a = b, a, c
     print("a = " + str(a))
     print("b = " + str(b))
@@ -16,7 +14,6 @@ def task_2(a, b, c):
 
 
 def task_3(a, b, c):
-    print("\n3.")
     a, c, b = b, a, c
     print("a = " + str(a))
     print("b = " + str(b))
@@ -25,21 +22,18 @@ def task_3(a, b, c):
 
 
 def task_4(x):
-    print("\n4.")
     y = (3 * x ** 6) - (6 * x ** 2) - 7
     print("y = " + str(y))
     print()
 
 
 def task_5(x):
-    print("\n5.")
     y = (4 * (x - 3) ** 6) - (7 * (x - 3) ** 3) + 2
     print("y = " + str(y))
     print()
 
 
 def task_6(a):
-    print("\n6.")
     helper = a * a
     helper *= helper
     a = helper * helper
@@ -48,7 +42,6 @@ def task_6(a):
 
 
 def task_7(a):
-    print("\n7.")
     helper1 = a * a
     helper2 = helper1 * a
     helper1 *= helper2
@@ -59,13 +52,20 @@ def task_7(a):
 
 
 def main():
-    task_1(float(input()), float(input()))
-    task_2(float(input()), float(input()), float(input()))
-    task_3(float(input()), float(input()), float(input()))
-    task_4(float(input()))
-    task_5(float(input()))
-    task_6(float(input()))
-    task_7(float(input()))
+    print("\n1.")
+    task_1(float(input("Введите a: ")), float(input("Введите b: ")))
+    print("\n2.")
+    task_2(float(input("Введите a: ")), float(input("Введите b: ")), float(input("Введите c: ")))
+    print("\n3.")
+    task_3(float(input("Введите a: ")), float(input("Введите b: ")), float(input("Введите c: ")))
+    print("\n4.")
+    task_4(float(input("Введите x: ")))
+    print("\n5.")
+    task_5(float(input("Введите x: ")))
+    print("\n6.")
+    task_6(float(input("Введите A: ")))
+    print("\n7.")
+    task_7(float(input("Введите A: ")))
 
 
 if __name__ == '__main__':
